@@ -13,6 +13,16 @@ package clases.poo.ito;
  * @author rherrera
  */
 public class Mascota {
+	
+	public Mascota(String clasificacion, String raza, String genero, String nombre, int edad) {
+		super();
+		this.clasificacion = clasificacion;
+		this.raza = raza;
+		this.genero = genero;
+		this.nombre = nombre;
+		this.edad = edad;
+	}
+
 	/**
 	 * Description of the property clasificacion.
 	 */
