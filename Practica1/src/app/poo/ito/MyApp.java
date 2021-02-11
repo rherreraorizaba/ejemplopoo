@@ -4,14 +4,10 @@ import clases.poo.ito.Mascota;
 
 public class MyApp {
 
-	static Mascota m = new Mascota();
+	static Mascota m = new Mascota("Perro","Maltes","Macho","Kenji",5);
 
 	static void run() {
-		m.setClasificacion("Perro");
-		m.setRaza("Maltes");
-		m.setGenero("Macho");
-		m.setEdad(5);
-		m.setNombre("Kenji");
+		
 		System.out.println(m);
 	}
 
